@@ -1,0 +1,1632 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               All methods in suite
+               
+               <b>Suite_CrossBroserTesting</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">2</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">3</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">5</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">60%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true">1m
+               13s
+               
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"
+                   checked=""></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"
+                   checked=""></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"
+                checked=""></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="tests.FB_Homepage_FbSearchTest_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_FbSearchTest_byStatus_failed_FAIL1_details')">FbSearchTest()</a>
+               </td>
+               <td nowrap="true">19:44:07</td>
+               <td nowrap="true" align="right">20s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_FbSearchTest_byStatus_failed_FAIL1_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+                     (Session info: chrome=77.0.3865.90)
+                     For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:e8:10e6:a0b1:f177%en0', os.name: 'Mac OS X', os.arch:
+                     'x86_64', os.version: '10.15', java.version: '1.8.0_221'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion:
+                     77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:61103},
+                     javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy:
+                     Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                     unhandledPromptBehavior: dismiss and notify}
+                     Session ID: d6a96b0c780219cc4817a914d56e8a37
+                     *** Element info: {Using=xpath, value=//input[@id='email']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_FbSearchTest_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>FbSearchTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>FbSearchTest()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:07
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>20s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_FbSearchTest_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+                        (Session info: chrome=77.0.3865.90)
+                        For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:e8:10e6:a0b1:f177%en0', os.name: 'Mac OS X', os.arch:
+                        'x86_64', os.version: '10.15', java.version: '1.8.0_221'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion:
+                        77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:61103},
+                        javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy:
+                        Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                        unhandledPromptBehavior: dismiss and notify}
+                        Session ID: d6a96b0c780219cc4817a914d56e8a37
+                        *** Element info: {Using=xpath, value=//input[@id='email']}
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+                        at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+                        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+                        at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+                        at util.WebDriverAPI.TypeByXpath(WebDriverAPI.java:30)
+                        at tests.FB_Homepage.FbSearchTest(FB_Homepage.java:35)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        at java.lang.reflect.Method.invoke(Method.java:498)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+                        at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+                        at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+                        at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+                        at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+                        at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.util.ArrayList.forEach(ArrayList.java:1257)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:770)
+                        at org.testng.TestRunner.run(TestRunner.java:591)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+                        at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+                        at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+                        at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+                        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+                        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+                        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+                        at java.lang.Thread.run(Thread.java:748)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="tests.FB_Homepage_LogInwithValidInfo_byStatus_failed_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_LogInwithValidInfo_byStatus_failed_FAIL2_details')">LogInwithValidInfo()</a>
+               </td>
+               <td nowrap="true">19:44:33</td>
+               <td nowrap="true" align="right">20s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_LogInwithValidInfo_byStatus_failed_FAIL2_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+                     (Session info: chrome=77.0.3865.90)
+                     For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:e8:10e6:a0b1:f177%en0', os.name: 'Mac OS X', os.arch:
+                     'x86_64', os.version: '10.15', java.version: '1.8.0_221'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion:
+                     77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:61167},
+                     javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy:
+                     Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                     unhandledPromptBehavior: dismiss and notify}
+                     Session ID: bdd2c032b6112cb2d0760ededa352e3f
+                     *** Element info: {Using=xpath, value=//input[@id='email']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_LogInwithValidInfo_byStatus_failed_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>LogInwithValidInfo
+                     </div>
+                     <div>
+                        <b>Signature: </b>LogInwithValidInfo()[pri:1, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:33
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:53
+                     </div>
+                     <div>
+                        <b>Duration: </b>20s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_LogInwithValidInfo_byStatus_failed_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+                        (Session info: chrome=77.0.3865.90)
+                        For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:e8:10e6:a0b1:f177%en0', os.name: 'Mac OS X', os.arch:
+                        'x86_64', os.version: '10.15', java.version: '1.8.0_221'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion:
+                        77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:61167},
+                        javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy:
+                        Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                        unhandledPromptBehavior: dismiss and notify}
+                        Session ID: bdd2c032b6112cb2d0760ededa352e3f
+                        *** Element info: {Using=xpath, value=//input[@id='email']}
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+                        at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+                        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+                        at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+                        at util.WebDriverAPI.TypeByXpath(WebDriverAPI.java:30)
+                        at tests.FB_Homepage.LogInwithValidInfo(FB_Homepage.java:43)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        at java.lang.reflect.Method.invoke(Method.java:498)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+                        at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+                        at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+                        at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+                        at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+                        at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.util.ArrayList.forEach(ArrayList.java:1257)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:770)
+                        at org.testng.TestRunner.run(TestRunner.java:591)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+                        at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+                        at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+                        at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+                        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+                        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+                        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+                        at java.lang.Thread.run(Thread.java:748)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="tests.FB_Homepage_setup_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_setup_byStatus_passed_PASS1_details')">setup(chrome)</a>
+               </td>
+               <td nowrap="true">19:43:56</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_setup_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup(java.lang.String)[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        chrome
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:43:56
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_FbLogoTest_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_FbLogoTest_byStatus_passed_PASS2_details')">FbLogoTest()</a>
+               </td>
+               <td nowrap="true">19:44:03</td>
+               <td nowrap="true" align="right">101 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_FbLogoTest_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>FbLogoTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>FbLogoTest()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:03
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>101 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_close_byStatus_passed_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_close_byStatus_passed_PASS3_details')">close()</a>
+               </td>
+               <td nowrap="true">19:44:03</td>
+               <td nowrap="true" align="right">243 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_close_byStatus_passed_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:03
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>243 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_setup_byStatus_passed_PASS4_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_setup_byStatus_passed_PASS4_details')">setup(chrome)</a>
+               </td>
+               <td nowrap="true">19:44:03</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_setup_byStatus_passed_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup(java.lang.String)[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        chrome
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:03
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:07
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_close_byStatus_passed_PASS5_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_close_byStatus_passed_PASS5_details')">close()</a>
+               </td>
+               <td nowrap="true">19:44:27</td>
+               <td nowrap="true" align="right">169 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_close_byStatus_passed_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:27
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>169 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_setup_byStatus_passed_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_setup_byStatus_passed_PASS6_details')">setup(chrome)</a>
+               </td>
+               <td nowrap="true">19:44:27</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_setup_byStatus_passed_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup(java.lang.String)[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        chrome
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:27
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_verifyTittle_byStatus_passed_PASS7_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_verifyTittle_byStatus_passed_PASS7_details')">verifyTittle()</a>
+               </td>
+               <td nowrap="true">19:44:30</td>
+               <td nowrap="true" align="right">11 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_verifyTittle_byStatus_passed_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyTittle
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyTittle()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:30
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>11 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_close_byStatus_passed_PASS8_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_close_byStatus_passed_PASS8_details')">close()</a>
+               </td>
+               <td nowrap="true">19:44:30</td>
+               <td nowrap="true" align="right">224 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_close_byStatus_passed_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:30
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>224 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_setup_byStatus_passed_PASS9_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_setup_byStatus_passed_PASS9_details')">setup(chrome)</a>
+               </td>
+               <td nowrap="true">19:44:30</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_setup_byStatus_passed_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup(java.lang.String)[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        chrome
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:30
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:33
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_close_byStatus_passed_PASS10_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_close_byStatus_passed_PASS10_details')">close()</a>
+               </td>
+               <td nowrap="true">19:44:53</td>
+               <td nowrap="true" align="right">164 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_close_byStatus_passed_PASS10_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:53
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:53
+                     </div>
+                     <div>
+                        <b>Duration: </b>164 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_setup_byStatus_passed_PASS11_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_setup_byStatus_passed_PASS11_details')">setup(chrome)</a>
+               </td>
+               <td nowrap="true">19:44:53</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_setup_byStatus_passed_PASS11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup(java.lang.String)[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        chrome
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:53
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:58
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_LoginWithvalidPh_byStatus_passed_PASS12_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_LoginWithvalidPh_byStatus_passed_PASS12_details')">LoginWithvalidPh()</a>
+               </td>
+               <td nowrap="true">19:44:58</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_LoginWithvalidPh_byStatus_passed_PASS12_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>LoginWithvalidPh
+                     </div>
+                     <div>
+                        <b>Signature: </b>LoginWithvalidPh()[pri:2, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:58
+                     </div>
+                     <div>
+                        <b>End time: </b>19:45:08
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_close_byStatus_passed_PASS13_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_close_byStatus_passed_PASS13_details')">close()</a>
+               </td>
+               <td nowrap="true">19:45:08</td>
+               <td nowrap="true" align="right">295 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_close_byStatus_passed_PASS13_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:45:08
+                     </div>
+                     <div>
+                        <b>End time: </b>19:45:09
+                     </div>
+                     <div>
+                        <b>Duration: </b>295 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">tests.FB_Homepage</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="tests.FB_Homepage_setup_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_setup_byClass_PASS1_details')">setup(chrome)</a>
+               </td>
+               <td nowrap="true">19:43:56</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_setup_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup(java.lang.String)[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        chrome
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:43:56
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_FbLogoTest_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_FbLogoTest_byClass_PASS2_details')">FbLogoTest()</a>
+               </td>
+               <td nowrap="true">19:44:03</td>
+               <td nowrap="true" align="right">101 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_FbLogoTest_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>FbLogoTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>FbLogoTest()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:03
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>101 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_close_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_close_byClass_PASS3_details')">close()</a>
+               </td>
+               <td nowrap="true">19:44:03</td>
+               <td nowrap="true" align="right">243 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_close_byClass_PASS3_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:03
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>243 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_setup_byClass_PASS4_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_setup_byClass_PASS4_details')">setup(chrome)</a>
+               </td>
+               <td nowrap="true">19:44:03</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_setup_byClass_PASS4_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup(java.lang.String)[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        chrome
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:03
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:07
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_FbSearchTest_byClass_FAIL5_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_FbSearchTest_byClass_FAIL5_details')">FbSearchTest()</a>
+               </td>
+               <td nowrap="true">19:44:07</td>
+               <td nowrap="true" align="right">20s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_FbSearchTest_byClass_FAIL5_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+                     (Session info: chrome=77.0.3865.90)
+                     For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:e8:10e6:a0b1:f177%en0', os.name: 'Mac OS X', os.arch:
+                     'x86_64', os.version: '10.15', java.version: '1.8.0_221'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion:
+                     77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:61103},
+                     javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy:
+                     Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                     unhandledPromptBehavior: dismiss and notify}
+                     Session ID: d6a96b0c780219cc4817a914d56e8a37
+                     *** Element info: {Using=xpath, value=//input[@id='email']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_FbSearchTest_byClass_FAIL5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>FbSearchTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>FbSearchTest()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:07
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>20s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_FbSearchTest_byClass_FAIL5_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+                        (Session info: chrome=77.0.3865.90)
+                        For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:e8:10e6:a0b1:f177%en0', os.name: 'Mac OS X', os.arch:
+                        'x86_64', os.version: '10.15', java.version: '1.8.0_221'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion:
+                        77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:61103},
+                        javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy:
+                        Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                        unhandledPromptBehavior: dismiss and notify}
+                        Session ID: d6a96b0c780219cc4817a914d56e8a37
+                        *** Element info: {Using=xpath, value=//input[@id='email']}
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+                        at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+                        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+                        at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+                        at util.WebDriverAPI.TypeByXpath(WebDriverAPI.java:30)
+                        at tests.FB_Homepage.FbSearchTest(FB_Homepage.java:35)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        at java.lang.reflect.Method.invoke(Method.java:498)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+                        at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+                        at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+                        at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+                        at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+                        at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.util.ArrayList.forEach(ArrayList.java:1257)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:770)
+                        at org.testng.TestRunner.run(TestRunner.java:591)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+                        at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+                        at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+                        at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+                        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+                        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+                        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+                        at java.lang.Thread.run(Thread.java:748)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="tests.FB_Homepage_close_byClass_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_close_byClass_PASS6_details')">close()</a>
+               </td>
+               <td nowrap="true">19:44:27</td>
+               <td nowrap="true" align="right">169 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_close_byClass_PASS6_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:27
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>169 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_setup_byClass_PASS7_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_setup_byClass_PASS7_details')">setup(chrome)</a>
+               </td>
+               <td nowrap="true">19:44:27</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_setup_byClass_PASS7_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup(java.lang.String)[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        chrome
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:27
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_verifyTittle_byClass_PASS8_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_verifyTittle_byClass_PASS8_details')">verifyTittle()</a>
+               </td>
+               <td nowrap="true">19:44:30</td>
+               <td nowrap="true" align="right">11 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_verifyTittle_byClass_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyTittle
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyTittle()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:30
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>11 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_close_byClass_PASS9_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_close_byClass_PASS9_details')">close()</a>
+               </td>
+               <td nowrap="true">19:44:30</td>
+               <td nowrap="true" align="right">224 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_close_byClass_PASS9_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:30
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>224 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_setup_byClass_PASS10_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_setup_byClass_PASS10_details')">setup(chrome)</a>
+               </td>
+               <td nowrap="true">19:44:30</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_setup_byClass_PASS10_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup(java.lang.String)[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        chrome
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:30
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:33
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_LogInwithValidInfo_byClass_FAIL11_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_LogInwithValidInfo_byClass_FAIL11_details')">LogInwithValidInfo()</a>
+               </td>
+               <td nowrap="true">19:44:33</td>
+               <td nowrap="true" align="right">20s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_LogInwithValidInfo_byClass_FAIL11_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+                     (Session info: chrome=77.0.3865.90)
+                     For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                     System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:e8:10e6:a0b1:f177%en0', os.name: 'Mac OS X', os.arch:
+                     'x86_64', os.version: '10.15', java.version: '1.8.0_221'
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion:
+                     77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:61167},
+                     javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy:
+                     Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                     unhandledPromptBehavior: dismiss and notify}
+                     Session ID: bdd2c032b6112cb2d0760ededa352e3f
+                     *** Element info: {Using=xpath, value=//input[@id='email']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_LogInwithValidInfo_byClass_FAIL11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>LogInwithValidInfo
+                     </div>
+                     <div>
+                        <b>Signature: </b>LogInwithValidInfo()[pri:1, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:33
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:53
+                     </div>
+                     <div>
+                        <b>Duration: </b>20s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_LogInwithValidInfo_byClass_FAIL11_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+                        (Session info: chrome=77.0.3865.90)
+                        For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+                        System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:e8:10e6:a0b1:f177%en0', os.name: 'Mac OS X', os.arch:
+                        'x86_64', os.version: '10.15', java.version: '1.8.0_221'
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion:
+                        77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:61167},
+                        javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy:
+                        Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000},
+                        unhandledPromptBehavior: dismiss and notify}
+                        Session ID: bdd2c032b6112cb2d0760ededa352e3f
+                        *** Element info: {Using=xpath, value=//input[@id='email']}
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+                        at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+                        at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+                        at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+                        at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+                        at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+                        at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+                        at util.WebDriverAPI.TypeByXpath(WebDriverAPI.java:30)
+                        at tests.FB_Homepage.LogInwithValidInfo(FB_Homepage.java:43)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        at java.lang.reflect.Method.invoke(Method.java:498)
+                        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+                        at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+                        at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+                        at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+                        at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+                        at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+                        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+                        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+                        at java.util.ArrayList.forEach(ArrayList.java:1257)
+                        at org.testng.TestRunner.privateRun(TestRunner.java:770)
+                        at org.testng.TestRunner.run(TestRunner.java:591)
+                        at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+                        at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+                        at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+                        at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+                        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+                        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+                        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+                        at java.lang.Thread.run(Thread.java:748)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="tests.FB_Homepage_close_byClass_PASS12_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_close_byClass_PASS12_details')">close()</a>
+               </td>
+               <td nowrap="true">19:44:53</td>
+               <td nowrap="true" align="right">164 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_close_byClass_PASS12_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:53
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:53
+                     </div>
+                     <div>
+                        <b>Duration: </b>164 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_setup_byClass_PASS13_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_setup_byClass_PASS13_details')">setup(chrome)</a>
+               </td>
+               <td nowrap="true">19:44:53</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_setup_byClass_PASS13_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup(java.lang.String)[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        chrome
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:53
+                     </div>
+                     <div>
+                        <b>End time: </b>19:44:58
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_LoginWithvalidPh_byClass_PASS14_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_LoginWithvalidPh_byClass_PASS14_details')">LoginWithvalidPh()</a>
+               </td>
+               <td nowrap="true">19:44:58</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_LoginWithvalidPh_byClass_PASS14_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>LoginWithvalidPh
+                     </div>
+                     <div>
+                        <b>Signature: </b>LoginWithvalidPh()[pri:2, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:44:58
+                     </div>
+                     <div>
+                        <b>End time: </b>19:45:08
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tests.FB_Homepage_close_byClass_PASS15_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tests.FB_Homepage_close_byClass_PASS15_details')">close()</a>
+               </td>
+               <td nowrap="true">19:45:08</td>
+               <td nowrap="true" align="right">295 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tests.FB_Homepage_close_byClass_PASS15_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:tests.FB_Homepage@1f28c152]
+                     </div>
+                     <div>
+                        <b>Start time: </b>19:45:08
+                     </div>
+                     <div>
+                        <b>End time: </b>19:45:09
+                     </div>
+                     <div>
+                        <b>Duration: </b>295 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>
