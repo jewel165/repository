@@ -1,19 +1,20 @@
 package base;
 
 
+
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
-import com.beust.jcommander.Parameters;
+import org.testng.annotations.Parameters;
 
 import util.WebDriverAPI;
 
 public class Config03 extends WebDriverAPI {
 	
 	
-	@org.testng.annotations.Parameters("browser")
+	@Parameters("browser")
 	@BeforeMethod(alwaysRun = true)
 	
 	

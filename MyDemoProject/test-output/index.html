@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,11 +103,6 @@
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite_CrossBroserTesting" title="tests.FB_Homepage" hash-for-method="FbSearchTest">FbSearchTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite_CrossBroserTesting" title="tests.FB_Homepage" hash-for-method="LogInwithValidInfo">LogInwithValidInfo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite_CrossBroserTesting -->
@@ -122,6 +117,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite_CrossBroserTesting" title="tests.FB_Homepage" hash-for-method="FbLogoTest">FbLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_CrossBroserTesting" title="tests.FB_Homepage" hash-for-method="LogInwithValidInfo">LogInwithValidInfo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -157,15 +157,15 @@
                   <a name="FbSearchTest">
                   </a> <!-- FbSearchTest -->
                   <span class="method-name">FbSearchTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;email&apos;]&quot;}
-  (Session info: chrome=77.0.3865.90)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;js_2s&quot;]&quot;}
+  (Session info: chrome=77.0.3865.120)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
 System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:e8:10e6:a0b1:f177%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:61103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d6a96b0c780219cc4817a914d56e8a37
-*** Element info: {Using=xpath, value=//input[@id=&apos;email&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:58742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5f9c3d0ef0a8a6395ecb814c8afd80be
+*** Element info: {Using=xpath, value=//*[@id=&quot;js_2s&quot;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -176,43 +176,8 @@ Session ID: d6a96b0c780219cc4817a914d56e8a37
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at util.WebDriverAPI.TypeByXpath(WebDriverAPI.java:30)
-	at tests.FB_Homepage.FbSearchTest(FB_Homepage.java:35)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LogInwithValidInfo">
-                  </a> <!-- LogInwithValidInfo -->
-                  <span class="method-name">LogInwithValidInfo</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;email&apos;]&quot;}
-  (Session info: chrome=77.0.3865.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:e8:10e6:a0b1:f177%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:61167}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bdd2c032b6112cb2d0760ededa352e3f
-*** Element info: {Using=xpath, value=//input[@id=&apos;email&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at util.WebDriverAPI.TypeByXpath(WebDriverAPI.java:30)
-	at tests.FB_Homepage.LogInwithValidInfo(FB_Homepage.java:43)
+	at util.WebDriverAPI.FindByXpath(WebDriverAPI.java:44)
+	at tests.FB_Homepage.FbSearchTest(FB_Homepage.java:38)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
@@ -239,6 +204,13 @@ Session ID: bdd2c032b6112cb2d0760ededa352e3f
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="LogInwithValidInfo">
+                  </a> <!-- LogInwithValidInfo -->
+                  <span class="method-name">LogInwithValidInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="LoginWithvalidPh">
                   </a> <!-- LoginWithvalidPh -->
                   <span class="method-name">LoginWithvalidPh</span>
@@ -256,7 +228,7 @@ Session ID: bdd2c032b6112cb2d0760ededa352e3f
         </div> <!-- panel Suite_CrossBroserTesting -->
         <div panel-name="test-xml-Suite_CrossBroserTesting" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/jewel/eclipse-workspace/MyDemoProject/testng.xml</span>
+            <span class="header-content">/Users/jewel/git/repository/MyDemoProject/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -373,23 +345,23 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'FbSearchTest')
 data.setCell(0, 2, 'tests.FB_Homepage')
-data.setCell(0, 3, 20067);
+data.setCell(0, 3, 28952);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LogInwithValidInfo')
+data.setCell(1, 1, 'LoginWithvalidPh')
 data.setCell(1, 2, 'tests.FB_Homepage')
-data.setCell(1, 3, 20035);
+data.setCell(1, 3, 9317);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'LoginWithvalidPh')
+data.setCell(2, 1, 'LogInwithValidInfo')
 data.setCell(2, 2, 'tests.FB_Homepage')
-data.setCell(2, 3, 9887);
+data.setCell(2, 3, 7101);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'FbLogoTest')
 data.setCell(3, 2, 'tests.FB_Homepage')
-data.setCell(3, 3, 101);
+data.setCell(3, 3, 94);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyTittle')
 data.setCell(4, 2, 'tests.FB_Homepage')
-data.setCell(4, 3, 11);
+data.setCell(4, 3, 16);
 window.suiteTableData['Suite_CrossBroserTesting']= { tableData: data, tableDiv: 'times-div-Suite_CrossBroserTesting'}
 return data;
 }
@@ -431,46 +403,46 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.FB_Homepage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">setup(firefox)</span>
+                <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">setup(chrome)</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">FbLogoTest</span>
-                <span class="method-start">159 ms</span>
+                <span class="method-start">167 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">close</span>
-                <span class="method-start">166 ms</span>
+                <span class="method-start">176 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setup(firefox)</span>
-                <span class="method-start">179 ms</span>
+                <span class="method-start">186 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">FbSearchTest</span>
-                <span class="method-start">199 ms</span>
+                <span class="method-start">196 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">close</span>
-                <span class="method-start">205 ms</span>
+                <span class="method-start">200 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setup(firefox)</span>
-                <span class="method-start">213 ms</span>
+                <span class="method-start">209 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTittle</span>
@@ -480,99 +452,97 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">close</span>
-                <span class="method-start">238 ms</span>
+                <span class="method-start">225 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setup(firefox)</span>
-                <span class="method-start">243 ms</span>
+                <span class="method-start">230 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LogInwithValidInfo</span>
-                <span class="method-start">262 ms</span>
+                <span class="method-start">254 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">close</span>
-                <span class="method-start">265 ms</span>
+                <span class="method-start">259 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setup(firefox)</span>
-                <span class="method-start">289 ms</span>
+                <span class="method-start">267 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginWithvalidPh</span>
-                <span class="method-start">299 ms</span>
+                <span class="method-start">272 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">close</span>
-                <span class="method-start">305 ms</span>
+                <span class="method-start">279 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">FbLogoTest</span>
-                <span class="method-start">7199 ms</span>
+                <span class="method-start">6842 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">7304 ms</span>
+                <span class="method-start">6953 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">7548 ms</span>
+                <span class="method-start">7121 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">FbSearchTest</span>
-                <span class="method-start">11083 ms</span>
+                <span class="method-start">12297 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">31154 ms</span>
+                <span class="method-start">41252 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">31324 ms</span>
+                <span class="method-start">41476 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTittle</span>
-                <span class="method-start">34259 ms</span>
+                <span class="method-start">46797 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">34271 ms</span>
+                <span class="method-start">46814 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">34496 ms</span>
+                <span class="method-start">46990 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">LogInwithValidInfo</span>
-                <span class="method-start">37631 ms</span>
+                <span class="method-start">52628 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">57670 ms</span>
+                <span class="method-start">59731 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">57835 ms</span>
+                <span class="method-start">59981 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginWithvalidPh</span>
-                <span class="method-start">62863 ms</span>
+                <span class="method-start">64826 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">72753 ms</span>
+                <span class="method-start">74145 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

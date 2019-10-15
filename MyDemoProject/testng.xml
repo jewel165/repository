@@ -17,7 +17,8 @@
   		</groups>
     <classes>
       <class name="tests.FB_Homepage"/>
-    </classes>
+      
+     </classes>
     
     </test> <!-- Test -->
     

@@ -14,7 +14,6 @@
       <class name="tests.FB_Homepage">
         <methods>
           <include name="setup"/>
-          <include name="LogInwithValidInfo"/>
           <include name="FbSearchTest"/>
           <include name="close"/>
         </methods>

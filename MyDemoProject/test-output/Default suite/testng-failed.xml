@@ -5,7 +5,12 @@
     <classes>
       <class name="tests.FB_Homepage">
         <methods>
+          <include name="FbLogoTest"/>
+          <include name="verifyTittle"/>
           <include name="setup"/>
+          <include name="LoginVerify"/>
+          <include name="LogInwithValidInfo"/>
+          <include name="LoginWithvalidPh"/>
           <include name="FbSearchTest"/>
           <include name="close"/>
         </methods>

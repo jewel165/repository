@@ -13,4 +13,6 @@ public class FB_Locators {
 	//public String //*[@id="blueBarDOMInspector"]/div/div/div/div[1]/h1/a/i
 	public String FbSearch = "//*[@id=\"js_2s\"]";
 
+	public String Fname = "//*[@id=\"u_0_f\"]";
+	public String Lname = "//*[@id=\"u_0_h\"]";
 }
